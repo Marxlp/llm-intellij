@@ -2,7 +2,7 @@
 <idea-plugin>
     <id>co.huggingface.llm-intellij-sk</id>
 
-    <name>LLM</name>
+    <name>LLM-SK</name>
 
     <vendor email="support@huggingface.co" url="https://huggingface.co">hugging-face</vendor>
 
