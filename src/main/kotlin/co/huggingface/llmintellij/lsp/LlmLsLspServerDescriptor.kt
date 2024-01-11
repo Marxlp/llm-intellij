@@ -76,7 +76,7 @@ fun buildBinaryName(logger: Logger): String? {
 }
 
 fun buildUrl(binName: String, version: String): String {
-    return "https://github.com/huggingface/llm-ls/releases/download/$version/$binName.gz"
+    return "https://api.llm.shukun.net/llm-ls/releases/download/$version/$binName.gz"
 }
 
 fun downloadAndUnzip(url: String, binDir: File, binName: String, fullPath: String) {
