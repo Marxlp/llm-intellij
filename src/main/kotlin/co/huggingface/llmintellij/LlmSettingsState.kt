@@ -40,7 +40,7 @@ sealed class TokenizerConfig {
 )
 class LlmSettingsState: PersistentStateComponent<LlmSettingsState?> {
     var ghostTextEnabled = true
-    var model: String = "bigcode/starcoder"
+    var model: String = "http://api.llm.shukun.net:15000/v1/code"
     var tokensToClear: List<String> = listOf("<|endoftext|>")
     var queryParams = QueryParams()
     var fim = FimParams()
